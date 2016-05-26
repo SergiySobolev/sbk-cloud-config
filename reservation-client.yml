@@ -1,2 +1,13 @@
 server:
   port: 9999
+  
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          strategy: SEMAPHORE
+netflix:
+  atlas:
+    uri: http://atlas:7101/api/v1/publish
+
