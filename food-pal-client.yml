@@ -7,7 +7,6 @@ spring:
       bindings:
         output: accounts
 
-  
 hystrix:
   command:
     default:
