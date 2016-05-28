@@ -1,0 +1,20 @@
+server:
+  port: 9999
+
+spring:
+  cloud:
+    stream:
+      bindings:
+        output: accounts
+
+  
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          strategy: SEMAPHORE
+netflix:
+  atlas:
+    uri: http://atlas:7101/api/v1/publish
+
