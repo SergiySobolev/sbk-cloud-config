@@ -1,7 +1,7 @@
 configuration:  
   projectName: account-service
 server:
-  port: 8001
+  port: 7999
 message:
   greeting: Hello from the configuration!
   
