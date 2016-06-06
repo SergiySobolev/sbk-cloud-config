@@ -1,4 +1,4 @@
 configuration:
   projectName: auth-server
 server:
-  port: 8001
+  port: 11111

@@ -6,8 +6,6 @@ spring:
     stream:
       bindings:
         output: reservations
-
-  
 hystrix:
   command:
     default:

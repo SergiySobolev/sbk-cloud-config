@@ -2,6 +2,9 @@ configuration:
   projectName: account-service
 server:
   port: 7999
+oauth2:
+  resource:
+    userInfoUri: http://localhost:11111/uaa/user
 message:
   greeting: Hello from the configuration!
   
