@@ -2,7 +2,7 @@ configuration:
   projectName: auth-server
 server:
   port: 11111
-  context: /uaa
-security:
-  user:
-    password: password
+  #context: /uaa
+#security:
+#  user:
+#    password: password
