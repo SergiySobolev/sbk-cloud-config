@@ -7,6 +7,10 @@ spring:
       bindings:
         output: accounts
 
+user:
+  path: /user/**
+    url: http://localhost:11111/uaa/user
+
 hystrix:
   command:
     default:
@@ -16,4 +20,6 @@ hystrix:
 netflix:
   atlas:
     uri: http://atlas:7101/api/v1/publish
+
+
 
